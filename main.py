@@ -42,9 +42,12 @@ def main():
     siege = Siege(6, 8)
     catapult = Catapult(5,3,7)
     battering_ram = BatteringRam(3,4,2, 2)
+    battering_ram_2 = BatteringRam(4, 5, 3, 3)
     print(f"For Siege Cargo volume: {siege.get_cargo_volume()}, Trip Cost {siege.get_trip_cost(5, 5)}")
     print(f"For Catapult Cargo volume: {catapult.get_cargo_volume()}, Trip_cost: {catapult.get_trip_cost(5,5)}")
     print(f"For Battering Ram Cargo volume: {battering_ram.get_cargo_volume()}, Trip_cost: {battering_ram.get_trip_cost(5,5)}")
+    print(f"For Second Battering Ram Cargo volume: {battering_ram_2.get_cargo_volume()}, Trip_cost: {battering_ram_2.get_trip_cost(5, 5)}")
+
 
 
 main()
