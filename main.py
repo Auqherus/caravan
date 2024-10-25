@@ -48,6 +48,4 @@ def main():
     print(f"For Battering Ram Cargo volume: {battering_ram.get_cargo_volume()}, Trip_cost: {battering_ram.get_trip_cost(5,5)}")
     print(f"For Second Battering Ram Cargo volume: {battering_ram_2.get_cargo_volume()}, Trip_cost: {battering_ram_2.get_trip_cost(5, 5)}")
 
-
-
 main()
